@@ -27,3 +27,8 @@ source myenv/bin/activate
 pip install numpy pandas matplotlib
 #Deactivate when done:
 deactivate
+
+#Using
+cd ~/myproject
+source myenv/bin/activate
+```
