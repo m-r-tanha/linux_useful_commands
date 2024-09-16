@@ -18,4 +18,12 @@ sudo apt upgrade
 Resize the Disk (If Possible):
 If the above steps don't free up enough space, and you have the ability to do so, consider increasing the size of your virtual machine's disk.
 
-
+### Create Env on a folder 
+```
+python3 -m venv myenv
+#Activate the environment:
+source myenv/bin/activate
+#Install packages:
+pip install numpy pandas matplotlib
+#Deactivate when done:
+deactivate
