@@ -1,6 +1,6 @@
 
 find ~/TU/Codes/kadlu -name "*.pyc" -delete
- grep -rn "np.float" ~/TU/Codes/kadlu
+grep -rn "np.float" ~/TU/Codes/kadlu
 
 
 # Linux Useful Commands
