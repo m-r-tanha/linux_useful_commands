@@ -38,3 +38,9 @@ deactivate
 cd ~/myproject
 source myenv/bin/activate
 ```
+
+You're running into the "externally-managed environment" error because Ubuntu (starting from version 22.04) enforces stricter package management rules. The system’s default Python environment is "externally managed," meaning you can't install or upgrade packages globally using pip. Instead, Ubuntu prefers package management through apt or isolated virtual environments.
+```
+python3 -m venv ~/myenv
+source ~/myenv/bin/activate
+```
