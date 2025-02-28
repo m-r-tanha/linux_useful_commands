@@ -1,6 +1,5 @@
 #Run Android-Studio
 ```
-
 bash /data/Software_Tools/android-studio/bin/studio.sh
 ```
 ```
