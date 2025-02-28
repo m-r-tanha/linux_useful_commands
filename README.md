@@ -1,4 +1,8 @@
+#Run Android-Studio
+```
 
+bash /data/Software_Tools/android-studio/bin/studio.sh
+```
 ```
 find ~/TU/Codes/kadlu -name "*.pyc" -delete
 grep -rn "np.float" ~/TU/Codes/kadlu
