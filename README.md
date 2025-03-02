@@ -1,3 +1,9 @@
+### Since Conda's dependency resolution can be slow or fail, mamba (a faster Conda alternative) may work better:
+```
+conda install -c conda-forge mamba
+mamba install -c conda-forge imagemagick
+```
+
 ```
 find /usr -name "libMagickWand*"
 ```
